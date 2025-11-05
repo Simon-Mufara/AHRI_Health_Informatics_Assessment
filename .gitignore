@@ -1,26 +1,9 @@
-# Ignore virtual environments
 .venv/
-venv/
-
-# Ignore Python cache and checkpoints
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.pkl
-*.ipynb_checkpoints/
-
-# Ignore data, results, and logs
-data/
-results/
-logs/
 *.log
+*.png
 *.csv
-*.h5ad
-*.tsv
+*.ipynb_checkpoints/
+output_ahri_q1/
+figures/
 
-# Ignore system and editor files
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
