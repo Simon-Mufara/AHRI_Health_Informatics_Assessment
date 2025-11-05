@@ -16,6 +16,9 @@ Before you begin, make sure you have:
 
 You can verify installations with:
 ```bash
+
+---
+
 python --version
 git --version
 ## 2. Clone the Repository
