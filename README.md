@@ -6,7 +6,7 @@
 
 ---
 
-## 📄 Project Overview
+## Project Overview
 
 This repository contains the complete analysis for the AHRI Health Informatics Internship Assessment. The objective of this assessment is to investigate clinic attendance patterns among participants diagnosed with hypertension during a health screening in rural KwaZulu-Natal (2018–2019).  
 
@@ -17,7 +17,7 @@ The key goals were:
 
 ---
 
-## 🗃️ Datasets
+## Datasets
 
 The analysis uses the following datasets provided by AHRI:  
 
@@ -32,7 +32,7 @@ The analysis uses the following datasets provided by AHRI:
 
 ---
 
-## 🧹 Data Cleaning & Quality Checks
+## Data Cleaning & Quality Checks
 
 The following preprocessing steps were applied:  
 - Standardized column names to lowercase and stripped whitespace.  
@@ -43,7 +43,7 @@ The following preprocessing steps were applied:
 
 ---
 
-## 📊 Analysis & Findings
+## Analysis & Findings
 
 1. **Hypertensive Participants**  
    - Total hypertensive participants: `X`  
@@ -63,7 +63,7 @@ The following preprocessing steps were applied:
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 The following visualizations were generated and saved in the `figures/` directory:
 
@@ -74,5 +74,23 @@ The following visualizations were generated and saved in the `figures/` director
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
+healthinformaticsinternshipassessmentexercise/
+│
+├── participants.csv
+├── health_screen.csv
+├── clinic_visits.csv
+├── clinic_codes.csv
+│
+├── notebooks/
+│   ├── Simon_Mufara_AHRI_Assessment.ipynb       # Main analysis notebook
+│
+├── figures/
+│   ├── age_distribution.png
+│   ├── top_visit_reasons.png
+│   ├── hypertension_clinic_attendance.png
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
 
