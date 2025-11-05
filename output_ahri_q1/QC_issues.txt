@@ -1,0 +1,32 @@
+=== Basic column overview ===
+participants: 844 rows, 3 columns
+  columns: ['id_new', 'sex', 'dateofbirth']
+health_screen: 844 rows, 7 columns
+  columns: ['id_new', 'date_screen', 'systolicBP', 'diastolicBP', 'bmi', 'smokecat', 'BPdiag']
+clinic_visits: 3174 rows, 3 columns
+  columns: ['visitreason', 'id_new', 'visitdate']
+clinic_codes: 3164 rows, 3 columns
+  columns: ['id_new', 'visitdate', 'clinic_code']
+
+=== Missing values (per dataset) ===
+participants: No missing values detected.
+health_screen: No missing values detected.
+clinic_visits: No missing values detected.
+clinic_codes: No missing values detected.
+
+=== Duplicate rows check ===
+participants: 0 duplicated full rows
+health_screen: 0 duplicated full rows
+clinic_visits: 8 duplicated full rows
+
+=== ID integrity ===
+participants: id_new missing=0, id_new duplicates=0
+health_screen: id_new missing=0, id_new duplicates=0
+clinic_visits: id_new missing=0, id_new duplicates=2666
+
+=== Analysis summary ===
+                   metric  value
+       total_hypertensive    128
+    hypertensive_attended     85
+hypertension_reason_count    101
+non_hypertensive_attended    423

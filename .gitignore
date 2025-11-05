@@ -1,0 +1,26 @@
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore Python cache and checkpoints
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.ipynb_checkpoints/
+
+# Ignore data, results, and logs
+data/
+results/
+logs/
+*.log
+*.csv
+*.h5ad
+*.tsv
+
+# Ignore system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
