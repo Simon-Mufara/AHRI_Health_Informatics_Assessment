@@ -133,6 +133,5 @@ By following these steps, you will:
  ## Author
 
 Simon Mufara
-Bioinformatics Honours Student – University of Cape Town (2025)
-Project: AHRI Health Informatics Internship Assessment
+INterview Project: AHRI Health Informatics Internship Assessment
  November 2025
