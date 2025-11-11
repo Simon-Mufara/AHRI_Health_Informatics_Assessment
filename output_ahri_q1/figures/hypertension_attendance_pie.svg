@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2025-11-05T17:14:03.322575</dc:date>
+    <dc:date>2025-11-05T23:27:36.569457</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -57,7 +57,7 @@ z
    </g>
    <g id="text_1">
     <!-- attended -->
-    <g style="fill: #262626" transform="translate(130.585076 366.350788) scale(0.165 -0.165)">
+    <g style="fill: #262626" transform="translate(155.884295 364.670436) scale(0.1 -0.1)">
      <defs>
       <path id="ArialMT-61" d="M 2588 409 
 Q 2275 144 1986 34 
@@ -210,7 +210,7 @@ z
    </g>
    <g id="text_2">
     <!-- 66.4% -->
-    <g style="fill: #262626" transform="translate(181.376462 301.317979) scale(0.18 -0.18)">
+    <g style="fill: #262626" transform="translate(192.717712 299.249854) scale(0.1 -0.1)">
      <defs>
       <path id="ArialMT-36" d="M 3184 3459 
 L 2625 3416 
@@ -328,7 +328,7 @@ z
    </g>
    <g id="text_3">
     <!-- did_not_attend -->
-    <g style="fill: #262626" transform="translate(247.993783 78.500219) scale(0.165 -0.165)">
+    <g style="fill: #262626" transform="translate(247.993783 76.819868) scale(0.1 -0.1)">
      <defs>
       <path id="ArialMT-69" d="M 425 3934 
 L 425 4581 
@@ -391,7 +391,7 @@ z
    </g>
    <g id="text_4">
     <!-- 33.6% -->
-    <g style="fill: #262626" transform="translate(210.387888 144.308578) scale(0.18 -0.18)">
+    <g style="fill: #262626" transform="translate(221.729138 142.240453) scale(0.1 -0.1)">
      <defs>
       <path id="ArialMT-33" d="M 269 1209 
 L 831 1284 

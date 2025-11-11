@@ -23,10 +23,3 @@ clinic_visits: 8 duplicated full rows
 participants: id_new missing=0, id_new duplicates=0
 health_screen: id_new missing=0, id_new duplicates=0
 clinic_visits: id_new missing=0, id_new duplicates=2666
-
-=== Analysis summary ===
-                   metric  value
-       total_hypertensive    128
-    hypertensive_attended     85
-hypertension_reason_count    101
-non_hypertensive_attended    423

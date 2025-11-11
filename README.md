@@ -72,25 +72,4 @@ The following visualizations were generated and saved in the `figures/` director
 3. **Clinic Attendance Among Hypertensive Participants** – pie chart.  
 4. **Optional Advanced Visualizations** – interactive plots using Plotly for enhanced presentation.
 
----
-
-## Project Structure
-healthinformaticsinternshipassessmentexercise/
-│
-├── participants.csv
-├── health_screen.csv
-├── clinic_visits.csv
-├── clinic_codes.csv
-│
-├── notebooks/
-│   ├── Simon_Mufara_AHRI_Assessment.ipynb       # Main analysis notebook
-│
-├── figures/
-│   ├── age_distribution.png
-│   ├── top_visit_reasons.png
-│   ├── hypertension_clinic_attendance.png
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
 
