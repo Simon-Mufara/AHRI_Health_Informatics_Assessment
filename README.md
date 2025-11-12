@@ -1,75 +1,74 @@
 # AHRI Health Informatics Internship Assessment
 
-**Author:** Simon Mufara  
-**Date:** November 2025  
-**Project:** Health Screening & Clinic Attendance Analysis – AHRI, KwaZulu-Natal  
+**Author:** Simon Mufara
+**Date:** November 2025
+**Institution:** Africa Health Research Institute (AHRI), KwaZulu-Natal
 
 ---
 
-## Project Overview
+## Overview
 
-This repository contains the complete analysis for the AHRI Health Informatics Internship Assessment. The objective of this assessment is to investigate clinic attendance patterns among participants diagnosed with hypertension during a health screening in rural KwaZulu-Natal (2018–2019).  
+This repository contains my analysis for the **AHRI Health Informatics Internship Assessment**, focused on understanding **clinic attendance patterns among hypertensive participants** from rural KwaZulu-Natal (2018–2019).
 
-The key goals were:  
-1. Identify errors or inconsistencies in the datasets.  
-2. Visualize participant demographics, clinic visits, and reasons for visits.  
-3. Analyze patterns of clinic attendance among hypertensive participants and the broader participant group.  
+The project integrates data from multiple AHRI datasets to answer key questions about **hypertension diagnosis, clinic attendance, and visit reasons**.
 
 ---
 
 ## Datasets
 
-The analysis uses the following datasets provided by AHRI:  
-
-| File | Description |
-|------|-------------|
-| `participants.csv` | Participant IDs, sex, and date of birth |
-| `health_screen.csv` | Blood pressure readings, BMI, smoking status, hypertension diagnosis |
-| `clinic_visits.csv` | Participant clinic visit dates and reasons |
-| `clinic_codes.csv` | Clinic ID codes for all visits |
-
-> **Note:** All datasets are stored in the root directory of this repo.
+| File                | Description                                    |
+| ------------------- | ---------------------------------------------- |
+| `participants.csv`  | Participant demographics                       |
+| `health_screen.csv` | Health screening data including blood pressure |
+| `clinic_visits.csv` | Clinic visit details and reasons               |
+| `clinic_codes.csv`  | Clinic ID reference table                      |
 
 ---
 
-## Data Cleaning & Quality Checks
+## Project Files
 
-The following preprocessing steps were applied:  
-- Standardized column names to lowercase and stripped whitespace.  
-- Converted date columns (`dateofbirth`, `date_screen`, `visitdate`) to datetime format.  
-- Standardized text fields (`bpdiag`, `smokecat`, `sex`, `visitreason`) to lowercase.  
-- Checked for missing values and duplicate rows.  
-- Merged datasets for analysis using `id_new` as the key.  
-
----
-
-## Analysis & Findings
-
-1. **Hypertensive Participants**  
-   - Total hypertensive participants: `X`  
-   - Hypertensive participants who attended a clinic: `Y`  
-
-2. **Clinic Visits for Hypertension**  
-   - Participants who visited the clinic for hypertension-related reasons: `Z`  
-
-3. **Other Participants**  
-   - Non-hypertensive participants who attended a clinic: `W`  
-
-4. **Most Common Reasons for Visits**  
-   - Top reasons:  
-     - Reason 1: `Count`  
-     - Reason 2: `Count`  
-     - …  
+| File                                       | Purpose                           |
+| ------------------------------------------ | --------------------------------- |
+| `Simon_Mufara_AHRI_Assessment_Final.ipynb` | Main analysis and visualizations  |
+| `merged_ahri_data.xlsx`                    | Cleaned and merged dataset        |
+| `output_ahri_q1/`                          | Final figures and QC reports      |
+| `How_to_run_the_project.md`                | Instructions to reproduce results |
 
 ---
 
-## Visualizations
+## Quick Start
 
-The following visualizations were generated and saved in the `figures/` directory:
+```bash
+pip install -r requirements.txt
+jupyter notebook Simon_Mufara_AHRI_Assessment_Final.ipynb
+```
 
-1. **Age Distribution of Participants** – histogram with KDE.  
-2. **Top 10 Reasons for Clinic Visits** – horizontal bar chart.  
-3. **Clinic Attendance Among Hypertensive Participants** – pie chart.  
-4. **Optional Advanced Visualizations** – interactive plots using Plotly for enhanced presentation.
+Outputs are saved automatically in `output_ahri_q1/` and `output_ahri_visuals_final/`.
+
+---
+
+## Key Focus
+
+* Identify hypertensive participants who attended clinics
+* Determine frequency of hypertension-related visits
+* Compare attendance with non-hypertensive participants
+* Explore the most common reasons for visits
+
+---
+
+## Visual Outputs
+
+All visualizations are available in the `figures/` directory, including:
+
+* Age distribution
+* Clinic attendance breakdown
+* Top 10 visit reasons
+* Interactive Plotly visualizations
+
+---
+
+## Note
+
+All data used here are anonymized and for educational use only.
 
 
